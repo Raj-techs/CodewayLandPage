@@ -240,7 +240,7 @@ button:hover{
     display: flex;
     height: 150px;
     position: relative;
-    background-color: rgb(178, 171, 171);
+    background-color: rgba(178, 171, 171, 0);
     top: 200px;
     left: 20px;
     flex-direction: row;
@@ -256,7 +256,7 @@ button:hover{
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(178, 171, 171);
+    background-color: rgba(178, 171, 171, 0);
     margin: 1px;
 }
 #ic{
@@ -283,4 +283,11 @@ button:hover{
     font-size: 1em;
     text-align: center;
     line-height: 100px;
+}
+.cen{
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 0px;
 }
